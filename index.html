@@ -8,6 +8,9 @@
 <body>
     <!-- Heading -->
     <h1>Universitas MDP</h1>
+    <hr>
+    <a href="daftar.html">Daftar</a>
+    <hr>
     <!-- ini Komentar -->
     <p>Universitas MDP Merupakan Universitas Unggulan di kota Palembang</p>
     <h2>Fakultas</h2>
@@ -58,10 +61,65 @@
             <td>Olahraga</td>
             <td>saipul@mdp.ac.id</td>
         </tr>
-        
         <hr>
-       
-    </table> 
+    </table>
+
+    <hr>
+    <!-- Colspan -->
+    <table border="1px">
+        <tr>
+            <td colspan="2">r1 c1</td>
+        </tr>
+        <tr>
+            <td>r2 c1</td>
+            <td>r2 c2</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Rowspan -->
+    <table border="1px">
+        <tr>
+            <td rowspan="2">R1 C1</td>
+            <td>R2 C2</td>
+        </tr>
+        <tr>
+            <td>R2 C2</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1px">
+        <tr>
+            <th rowspan="2", colspan="2">No. </th>
+            <th rowspan="2", colspan="2">Fakultas</th>
+            <th rowspan="2", colspan="2">Prodi</th>
+            <th colspan="2">Mahasiswa</th>
+            <th colspan="2">kelas</th>
+        </tr>
+        <tr>
+            <th>Laki-Laki</th>
+            <th>Perempuan</th>
+            <th>Pagi</th>
+            <th>Sore</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <td colspan="2">Fikr</td>
+            <td colspan="2">Informatika</td>
+            <td>400</td>
+            <td>300</td>
+            <td>350</td>
+            <td>350</td>
+        </tr>
+        <tr>
+            <td colspan="2">2</td>
+            <td colspan="2">Fikr</td>
+            <td colspan="2">Sistem Informasi</td>
+            <td>500</td>
+            <td>400</td>
+            <td>450</td>
+            <td>450</td>
+        </tr>
+    </table>
     &copy; 2024 Pemmrogrmanan Web I
 </body>
 </html>

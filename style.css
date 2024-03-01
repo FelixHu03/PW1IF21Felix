@@ -24,6 +24,7 @@ body{
 }
 .pemandangan {
     width: 66.67%;
+    float: left;
 }
 .pemandagan img{
     width: 66.67%;
@@ -31,6 +32,7 @@ body{
 }
 .mdp{
     width: 33.33%;
+    float: left;
 }
 .mdp img{
     width: 33.33%;

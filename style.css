@@ -1,0 +1,56 @@
+/* element selector */
+/* ref : colorhunt.co */
+.contain{
+
+}
+body{
+    background-color: #7469B6;
+}
+.img-responsive{
+    width: 200px;
+    height: 200px;
+}
+.dosenif{
+    width: 24%;
+    background-color: yellow;
+    float: left;
+    margin: 0 3px;
+}
+.dosensi{
+    width: 32%;
+    background-color: yellow;
+    float: left;
+    margin: 0 3px;
+}
+.pemandangan {
+    width: 66.67%;
+}
+.pemandagan img{
+    width: 66.67%;
+    height: 100px;
+}
+.mdp{
+    width: 33.33%;
+}
+.mdp img{
+    width: 33.33%;
+    height: 100px;
+}
+
+.text-center{
+    text-align: center;
+}
+.bg-primary{
+    background-color: #FCDC2A;
+}
+.rounded{
+    border-radius: 20%;
+}
+.img-rounded{
+    border-radius: 50% 50% 0 0 ;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}

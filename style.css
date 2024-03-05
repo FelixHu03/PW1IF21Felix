@@ -1,57 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
 /* element selector */
 /* ref : colorhunt.co */
-.contain{
+/* Mobile / HP */
 
-}
-body{
+body {
     background-color: #7469B6;
 }
-.img-responsive{
+
+/* css tablet */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: salmon;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+        background-color: #FCDC2A;
+        margin: 0 0;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        background-color: #FCDC2A;
+    }
+}
+
+/* css desktop */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+
+    .col {
+        width: 25%;
+        background-color: yellow;
+        float: left;
+        margin: 0 0;
+    }
+
+    .col2 {
+        width: 33.33%;
+        background-color: yellow;
+        float: left;
+        margin: 0 0;
+    }
+
+    .pemandangan {
+        width: 50%;
+        float: left;
+    }
+
+    .pemandagan-img {
+        width: 100%;
+        height: 100px;
+        border-radius: 2%;
+    }
+
+    .mdp {
+        width: 50%;
+        float: left;
+        background-color: black;
+    }
+
+    .mdp-img {
+        width: 100%;
+        height: 95.5px;
+        border-radius: 2%;
+    }
+
+    .pemandangan {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* class selektor */
+
+.img-responsive {
     width: 200px;
     height: 200px;
 }
-.dosenif{
-    width: 24%;
-    background-color: yellow;
-    float: left;
-    margin: 0 3px;
-}
-.dosensi{
-    width: 32%;
-    background-color: yellow;
-    float: left;
-    margin: 0 3px;
-}
-.pemandangan {
-    width: 66.67%;
-    float: left;
-}
-.pemandagan img{
-    width: 66.67%;
-    height: 100px;
-}
-.mdp{
-    width: 33.33%;
-    float: left;
-}
-.mdp img{
-    width: 33.33%;
-    height: 100px;
+
+
+.footer {
+    margin: 5px 0;
 }
 
-.text-center{
+
+
+
+
+
+
+
+
+.text-center {
     text-align: center;
 }
-.bg-primary{
+
+.bg-primary {
     background-color: #FCDC2A;
 }
-.rounded{
+
+.rounded {
     border-radius: 20%;
 }
-.img-rounded{
-    border-radius: 50% 50% 0 0 ;
+
+.img-rounded {
+    border-radius: 50% 50% 0 0;
 }
-.row::after{
+
+.row::after {
     content: "";
     clear: both;
     display: table;
